@@ -49,7 +49,7 @@ La esencia de este *starter* está en:
 
 ## Agradecimientos
 
-Mi enterno agradecimiento a la plantilla de [Marc Filleul](https://www.artisanweb.dev/) que en la inspiración y la base de esta plantilla.
+Mi eterno agradecimiento a la plantilla de [Marc Filleul](https://www.artisanweb.dev/) que en la inspiración y la base de esta plantilla.
 
 También a todas los integrantes del primer Grupo de trabajo de Developers Optimistas de la Zona Premium.
 
