@@ -1,3 +1,8 @@
 @import './tailwind.css';
 @import './markdown.css';
 @import './prism.css';
+@import url("https://fonts.xz.style/serve/roboto-mono.css");
+
+.titulo{
+    font-family: 'Roboto Mono', sans-serif;
+}
