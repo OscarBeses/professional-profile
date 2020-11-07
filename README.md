@@ -1,4 +1,8 @@
-# Reactiver Profile Starter
+# Mi perfil profesional - Oscar Beses Carmona
+## Proviene de 'Reactiver Profile Starter'
+
+Está formado gracias a un arquetipo facilitado por Daniel Primo.
+Es una primera versión de lo que podría ser mi perfil online aunque se que será la definitiva durante bastante tiempo.
 
 > Es un starter pensado para freelance cuyo primer idioma es el español. Mejor aún si son oyentes de Web Reactiva
 
