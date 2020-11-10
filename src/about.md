@@ -5,7 +5,7 @@ title: Sobre mi
 
 # Sobre mi
 
-![imagen](/assets/img/profile.jpg)
+![imagen](/assets/img/profile.png)
 
 Poseo amplia experiencia en **Java** y bases de datos **Oracle**. Al margen de llevar más de **3 años** trabajando con éstas tecnologías junto al framework **ZK** para el front-end, estoy abierto a trabajar con cualquier nueva tecnología puesto que me encantan los desafíos y seguir creciendo profesionalmente. Me importa el código y me implico al máximo en cada proyecto.
 
