@@ -11,7 +11,7 @@ module.exports = {
   title: "Oscar Beses",
   description: "Perfil Profesional de Oscar Beses",
   url: "", // Don't end with a slash /
-  email: "example@example.com",
+  email: "mdopdoal",
 
   author: {
     name: "OscarBeses",

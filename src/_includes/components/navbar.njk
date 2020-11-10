@@ -27,7 +27,7 @@
         {% endfor %}
       </ul>
       {% if navigation.cta %}
-      <a {% if item.external %}rel="external" {% endif %} href="{{navigation.cta.url  | safe  }}" class="mx-auto lg:mx-0 hover:underline bg-indigo-400 text-black font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">{{navigation.cta.title  }}</a>
+      <a {% if item.external %}rel="external" {% endif %} href="{{navigation.cta.url  | safe  }}" class="mx-auto lg:mx-0 hover:underline bg-indigo-400 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 block">{{navigation.cta.title  }}</a>
       {% endif %}
     </div>
   </div>
