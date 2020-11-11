@@ -16,17 +16,17 @@ document.addEventListener('click', function(e) {
         // click NOT on the menu
         if (checkParent(target, navMenu)) {
             // click on the link
-            if (navMenuDiv.classList.contains("invisible")) {
-                navMenuDiv.classList.remove("invisible");
-                navMenuDiv.classList.add("visible");
+            if (navMenuDiv.classList.contains("osk-invisible") || !navMenuDiv.classList.contains("osk-visible")) {
+                navMenuDiv.classList.remove("osk-invisible");
+                navMenuDiv.classList.add("osk-visible");
             } else {
-                navMenuDiv.classList.add("invisible");
-                navMenuDiv.classList.remove("visible");
+                navMenuDiv.classList.add("osk-invisible");
+                navMenuDiv.classList.remove("osk-visible");
             }
         } else {
             // click both outside link and outside menu, hide menu
-            navMenuDiv.classList.add("invisible");
-            navMenuDiv.classList.remove("visible");
+            navMenuDiv.classList.add("osk-invisible");
+            navMenuDiv.classList.remove("osk-visible");
         }
     }
 

@@ -1,13 +1,14 @@
 /*
  * PARA EL NAVBAR 
  */
-
-.visible {
-    display: grid;
-    animation-name: aparece;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
+ @media (max-width: 1024px) {
+    .osk-visible {
+        display: grid;
+        animation-name: aparece;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+    }
 }
 
 @keyframes aparece {
@@ -27,12 +28,14 @@
         opacity: 1;
     }
 }
-
-.invisible {
-    animation-name: desaparece;
-    animation-duration: 0.4s;
-    animation-fill-mode: forwards;
+@media (max-width: 767px) {
+    .osk-invisible {
+        animation-name: desaparece;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
 }
+
 @keyframes desaparece {
     0% {
         height: 125px;
