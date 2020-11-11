@@ -1,6 +1,7 @@
 @import './tailwind.css';
 @import './markdown.css';
 @import './prism.css';
+@import './mis-estilos.css';
 @import url("https://fonts.xz.style/serve/roboto-mono.css");
 
 .titulo{

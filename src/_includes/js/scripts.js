@@ -18,12 +18,17 @@ function check(e) {
         // click NOT on the menu
         if (checkParent(target, navMenu)) {
             // click on the link
-            if (navMenuDiv.classList.contains("hidden")) {
-                navMenuDiv.classList.remove("hidden");
-            } else { navMenuDiv.classList.add("hidden"); }
+            if (navMenuDiv.classList.contains("invisible")) {
+                navMenuDiv.classList.remove("invisible");
+                navMenuDiv.classList.add("visible");
+            } else {
+                navMenuDiv.classList.add("invisible");
+                navMenuDiv.classList.remove("visible");
+            }
         } else {
             // click both outside link and outside menu, hide menu
-            navMenuDiv.classList.add("hidden");
+            navMenuDiv.classList.add("invisible");
+            navMenuDiv.classList.remove("visible");
         }
     }
 
