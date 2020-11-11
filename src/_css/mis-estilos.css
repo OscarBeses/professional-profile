@@ -1,3 +1,7 @@
+/*
+ * PARA EL NAVBAR 
+ */
+
 .visible {
     display: grid;
     animation-name: aparece;
@@ -29,7 +33,6 @@
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
 }
-
 @keyframes desaparece {
     0% {
         height: 125px;
@@ -44,3 +47,52 @@
         opacity: 0;
     }
 }
+
+
+/*
+ * PARA LA HAMBURGUESA
+ */
+ #hamburguesa {
+    width: 30px;
+    height: 22.5px;
+    position: relative;
+    margin: 25px auto;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }  
+  #hamburguesa span {
+    display: block;
+    position: absolute;
+    height: 4.5px;
+    width: 100%;
+    background: #d3531a;
+    border-radius: 4.5px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 1s ease-in-out;
+  }  
+  #hamburguesa span:nth-child(1) {
+    top: 0px;
+  }  
+  #hamburguesa span:nth-child(2) {
+    top: 9px;
+  }  
+  #hamburguesa span:nth-child(3) {
+    top: 18px;
+  }  
+  #hamburguesa.open span:nth-child(1) {
+    top: 9px;
+    transform: rotate(135deg);
+  }  
+  #hamburguesa.open span:nth-child(2) {
+    opacity: 0;
+    left: -30px;
+  }  
+  #hamburguesa.open span:nth-child(3) {
+    top: 9px;
+    transform: rotate(-135deg);
+  }
+  

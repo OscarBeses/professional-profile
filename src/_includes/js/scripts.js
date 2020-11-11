@@ -4,14 +4,12 @@
 
 
 /*Toggle dropdown list*/
-/*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
 
-var navMenuDiv = document.getElementById("nav-content");
-var navMenu = document.getElementById("nav-toggle");
+const navMenuDiv = document.getElementById("nav-content");
+const navMenu = document.getElementById("nav-toggle");
 
-document.onclick = check;
-function check(e) {
-    var target = (e && e.target) || (event && event.srcElement);
+document.addEventListener('click', function(e) {
+    const target = (e && e.target);
 
     //Nav Menu
     if (!checkParent(target, navMenuDiv)) {
@@ -32,7 +30,7 @@ function check(e) {
         }
     }
 
-}
+});
 function checkParent(t, elm) {
     while (t.parentNode) {
         if (t == elm) { return true; }
@@ -40,3 +38,8 @@ function checkParent(t, elm) {
     }
     return false;
 }
+
+const hamburguesa = document.getElementById('hamburguesa');
+hamburguesa.addEventListener('click', function(){
+    hamburguesa.classList.toggle('open');
+});
