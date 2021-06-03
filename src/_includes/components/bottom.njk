@@ -1,4 +1,4 @@
-{% if site.cookieNoticeEnabled %}
+{# {% if site.cookieNoticeEnabled %}
     <script src="/assets/js/cookie.notice.min.js"></script>
 {% endif %}
 
@@ -7,5 +7,5 @@
     {% include "js/cookie-notice.js" %}
 {% endif %}
 {% include "js/scripts.js" %}
-{% endset %}
+{% endset %} #}
 <script>{{ js | jsmin | safe }}</script>

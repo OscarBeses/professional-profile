@@ -1,5 +1,5 @@
 <!--Nav-->
-<nav id="header" class="w-full z-30 top-0 text-white">
+<nav id="header" class="w-full top-0 text-white">
 
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 
@@ -19,7 +19,7 @@
       </button>
     </div>
 
-    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20 text-center" id="nav-content">
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 text-center" id="nav-content">
       <ul class="list-reset lg:flex justify-center lg:justify-end flex lg:flex-1 items-center">
         {% for item in navigation.main %}
           <li class="mr-3 text-center">
@@ -30,7 +30,10 @@
         {% endfor %}
       </ul>
       {% if navigation.cta %}
-      <a {% if item.external %}rel="external" {% endif %} href="{{navigation.cta.url  | safe  }}" class="mx-auto lg:mx-0 hover:underline bg-indigo-400 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 block">{{navigation.cta.title  }}</a>
+        <a {% if item.external %}rel="external" {% endif %} href="{{navigation.cta.url  | safe  }}" 
+          class="mx-auto lg:mx-0 hover:underline bg-indigo-400 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 block">
+            {{navigation.cta.title  }}
+        </a>
       {% endif %}
     </div>
   </div>

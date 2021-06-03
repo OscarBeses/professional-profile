@@ -3,31 +3,59 @@ layout: layouts/markdown.njk
 title: Sobre mi
 ---
 
-# Sobre mi
+## Sobre mi
 
 ![imagen](/assets/img/profile.png)
 
-Poseo amplia experiencia en **Java** y bases de datos **Oracle**. Al margen de llevar más de **3 años** trabajando con éstas tecnologías junto al framework **ZK** para el front-end, estoy abierto a trabajar con cualquier nueva tecnología puesto que me encantan los desafíos y seguir creciendo profesionalmente. Me importa el código y me implico al máximo en cada proyecto.
+Hola! Soy **Óscar Beses** y soy **Web Developer**.
+Soy técnico superior en desarrollo de aplicaciones web y técnico superior en desarrollo de aplicaciones multiplataforma, estudios también conocidos como **DAW** y **DAM**.
 
-**Te gustará saber una historia...** uno de mis primeros trabajos fue ser amarrador de buques comerciales y cruceros, sí, una de las personas encargadas de las operaciones de amarre de dichos barcos gigantes. E incluso llegué a titularme como patrón portuario.
-Fue un trabajo muy bonito y enriquecedor a nivel personal sin embargo no llenó mis expectativas laborales, no resultó ser mi vocación.
+**Te gustará saber una historia...** uno de mis primeros trabajos fue ser amarrador de buques comerciales y cruceros, una de las personas encargadas de las operaciones de amarre de estos barcos gigantes 🚢. E incluso llegué a titularme como patrón portuario⚓.
+Fue un trabajo muy bonito y enriquecedor a nivel personal.
 
-Desde pequeño había estado interesado en la informática, **siempre se me ha dado bien**. Y fue justo estando en este otro trabajo cuando decidí formarme para ser desarrollador de software. Y ahora puedo decir que no me arrepiento en absoluto, **cuanto más progreso en el sector IT más lo disfruto**.
+Desde muy pequeño he estado interesado en la informática, **siempre se me ha dado bien**. Pero no pensé en dedicarme a ello hasta estar bien metido en el mundo laboral. Fue en este otro trabajo cuando decidí formarme para ser desarrollador de software. Y ahora, 7 años mas tarde, puedo decir que no me arrepiento en absoluto, **cuanto más progreso en el sector IT más lo disfruto**.
 
-# Tecnologías
-**Java**, el primer lenguaje de programación que aprendí y al que me he dedicado laboralmente durante más de 3 años.
-**SQL y PL-SQL**, consecuencia de que en mi proyecto se utilice exclusivamente Oracle como gestor de bases de datos.
-**HTML y CSS**, me gustaría tocar más el front porque en el trabajo estoy bastante encasillado en back pero pienso que se me daría bien. Cuando lo estudié di cosas como SASS, GRID y FLEX y me gustó.
+## STACK TECNOLÓGICO
 
-**Javascript**, en mis ratos libres investigo sobre Angular, Vue y React. Me gustaría controlar alguna de los 3 al menos, Javascript puro y JQuery lo estudié durante un año.
-PHP y Laravel, también estudié PHP durante un año aunque no he llegado a usarlo en el mundo laboral. Con Laravel hice el proyecto que he comentado antes del laboratorio dental.
+Estoy siempre abierto a trabajar con cualquier nueva tecnología puesto que me encantan los desafíos y seguir creciendo profesionalmente. Me importa el código y me implico al máximo en cada proyecto.
 
-**Bootstrap**, siempre que puedo lo utilizo, me encanta aunque en el curro no lo puedo practicar.
-He tocado despliegues a nivel personal en AWS (la aplicación con Laravel), Heroku, Firebase y Google Cloud (poquito).
+Este es mi stack tecnológico actual:
 
-Como sistema de control de versiones, en el trabajo siempre uso **Subversion** y para mis side projects o cualquier otra cosa uso **Git**, comandos básicos.
-Para la gestión de las tareas siempre he usado jira aunque solo de haberle echado un ojo por encima ya creo que me gusta más trello.
+### Backend
 
-De IDE uso en el trabajo eclipse y en casa vsCode y para bbdd sql developer aunque ultimamente he descubierto DBeaver que me gusta mucho mas aunque en casa uso phpMyAdmin.
-Hice un curso de una semana de Docker el año pasado (aún estoy intentando entenderlo).
-Cuando me decida a aprender otro lenguaje backend será Python o Kotlin.
+Mucha experiencia en **Java** y bases de datos **Oracle**. Llevo más de **4 años** trabajando con éstas tecnologías.
+
+**SQL y PL-SQL**, he diseñado bases de datos de cero en base a requisitos de clientes y mantengo esquemas de bases de datos Oracle: creación de tablas, vistas, paquetes, funciones, procedimientos, etc.
+
+**PHP y Laravel**. Estudié un año de PHP y realicé un gestor documental con Laravel.
+
+### Frontend
+
+**HTML y CSS**, me encanta el front-end! Me gusta estar al día del mundo frontend aunque en los proyectos en los que suelo participar no sea su fuerte. Estoy formado en tecnologías como Web Components, Sass, Flexbox o Grid Layout.
+
+**Javascript / TypeScript y JQuery**. Trabajo a diario con JavaScript y JQuery además tengo un side proyect realizado en Angular. Me encantaría poder trabajar y aprender Vue y React.
+
+**Bootstrap**. He trabajado con las versiones 3, 4 y 5. Me encanta esta librería.
+
+### Tecnologías Transversales
+
+Utilizo Jenkins para los despliegues en el trabajo pero he aprovechado mis proyectos personales para realizar despliegues en **AWS**, **Heroku**, **Firebase** y **GitHub Pages**.
+
+Uso **Subversion** como sistema de control de versiones en mis proyectos personales y **SVN** en el trabajo. Puedes echar un vistazo a [mi GitHub](https://github.com/OscarBeses)
+
+**Jira** para la gestión de las tareas y **Eclipse** como IDE principal java, **DBeaver** o **sqlDeveloper** para gestión de bases de datos y para todo lo demás **vsCode**
+
+### Mundo Java
+
+Toda mi trayectoria en Java me obliga a dedicarle un apartado especial para comentar más detalladamente mis conocimientos en todo este ecosistema.
+Tecnologías Java con las que tengo experiencia.
+
+* **Spring framework**: incluyendo Spring Boot, Spring Data, Spring Security y Spring Tool Suite.
+* Desarrollo de **Servicios REST** utilizando **JSON Web Token** como comunicación entre front y back y autenticación segura de usuarios.
+* **Maven**.
+* **Project Lombok**.
+* APIs de persistencia, **JPA** y su implementación Hibernate(también mediante JPQL).
+* **JasperSoft Studio** para generación de informes.
+* Librerías para generación de **XML y JSON a partir de DTOs** como **XStream**.
+* Test Unitarios con **JUnit**.
+* Tomcat y JBoss
