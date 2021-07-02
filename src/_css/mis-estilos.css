@@ -2,55 +2,39 @@
  * PARA EL NAVBAR 
  */
  @media (max-width: 1024px) {
-    .osk-visible {
-        display: grid;
-        animation-name: aparece;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-in-out;
-    }
+  .osk-visible, .osk-invisible {
+    display: grid;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    margin-bottom: -18px;
+  }
+  .osk-visible {
+    animation-name: aparece;
+  }
+    
+  .osk-invisible {
+    animation-name: desaparece;
+  }
 }
 
 @keyframes aparece {
     0% {
-        height: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        opacity: 0;
-    }
-    50% {
-        opacity: 0.3;
+        margin-top: -100%;
     }
     100% {
-        height: 125px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        opacity: 1;
-    }
-}
-@media (max-width: 767px) {
-    .osk-invisible {
-        animation-name: desaparece;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+        margin-top: 0;
     }
 }
 
 @keyframes desaparece {
-    0% {
-        height: 125px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        opacity: 1;
-    }
-    100% {
-        height: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        opacity: 0;
-    }
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -100%;
+  }
 }
-
 
 /*
  * PARA LA HAMBURGUESA
@@ -61,7 +45,7 @@
     position: relative;
     margin: 25px auto;
     transform: rotate(0deg);
-    transition: .5s ease-in-out;
+    transition: .8s ease-in-out;
     cursor: pointer;
     margin-bottom: 15px;
   }  
@@ -75,7 +59,7 @@
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: 1s ease-in-out;
+    transition: .2s ease-in-out;
   }  
   #hamburguesa span:nth-child(1) {
     top: 0px;

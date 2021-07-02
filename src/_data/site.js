@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
 
 module.exports = {
   year: `${year}`,
-  cookieNoticeEnabled: true,
+  cookieNoticeEnabled: false,
   lang: "es", // for html tag
   title: "Oscar Beses",
   description: "Perfil Profesional de Oscar Beses",

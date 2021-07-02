@@ -33,7 +33,7 @@ Mucha experiencia en **Java** y bases de datos **Oracle**. Llevo más de **4 añ
 
 **HTML y CSS**, me encanta el front-end! Me gusta estar al día del mundo frontend aunque en los proyectos en los que suelo participar no sea su fuerte. Estoy formado en tecnologías como Web Components, Sass, Flexbox o Grid Layout.
 
-**Javascript / TypeScript y JQuery**. Trabajo a diario con JavaScript y JQuery además tengo un side proyect realizado en Angular. Me encantaría poder trabajar y aprender Vue y React.
+**Javascript / TypeScript y JQuery**. Trabajo a diario con JavaScript y JQuery además tengo un side proyect realizado en Angular. 
 
 **Bootstrap**. He trabajado con las versiones 3, 4 y 5. Me encanta esta librería.
 

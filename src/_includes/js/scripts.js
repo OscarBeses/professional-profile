@@ -1,6 +1,7 @@
-// This scripts are inyected directly inside <script> tag below footer
+
+// This scripts are inyected directly inside script tag below footer
 // See /src/_includes/components/bottom.njk
-//console.log('Remove me! (/src/_includes/js/scripts.js)')
+// console.log('Remove me! (/src/_includes/js/scripts.js)')
 
 
 /*Toggle dropdown list*/
